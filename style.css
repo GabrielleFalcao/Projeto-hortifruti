@@ -1,0 +1,45 @@
+body{
+    background-image: url(imagem/pexels-pixabay-68525.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header{
+    color: #F21905;
+    text-align: center;
+
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px #067302;
+    
+
+
+}
+footer{
+    color: white;
+    text-align:center;
+    font-style:italic;
+
+}
+
+select{
+    width: 230px;
+}
+
+input.botao{
+    border: solid 1px white;
+    border-radius: 20px;
+    color: white;
+    background-color: #F21905;
+    
+}
+
+input.botao:hover{
+    background-color: #067302;
+}

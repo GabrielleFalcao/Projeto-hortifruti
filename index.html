@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hortifruti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hortifruti</h1>
+    </header>
+    <section>
+        <div>
+            <h1>Frutas disponíveis:</h1>
+            <p>0- Banana: R$2,50</p>
+            <p>1- Morango: R$7,00</p>
+            <p>2- Abacaxi: R$3,00</p>
+            <p>3- Manga: R$5,00</p>
+            <p>4- Uva verde: R$4,50</p>
+            <p>5- Maçã: R$1,50</p>
+            <p>6- Maracujá: R$8,00</p>
+            <p>7- Acerola: R$1,50</p>
+            <p>8- Limão: R$0,80</p>
+            <p>Digite a fruta que você deseja: <input type="number" name="txtfruta" id="txtfruta"></p>
+
+           <input class="botao" type="button" value="Adicionar" onclick="AdicionarFruta()">
+            <br><br><select name="flista" id="flista" size="6"></select>
+            <br><input class="botao" type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+            <div id="res"></div>
+    
+    </section>
+    <footer>  
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
